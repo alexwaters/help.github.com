@@ -113,6 +113,14 @@ h4. Commit and type the message on the command line
 
 @git commit -m "This is the message describing the commit"@
 
+h4. Commit and create a link to it within issue number xxx on Github
+
+@git commit -m "This commit addresses the bug in GH-xxx"@
+
+h4. Commit and close issue number xxx on Github (you should not use close/closes/closed/fix/fixes/fixed in your commit messages unless you want to close an issue)
+
+@git commit -m "This commit closes GH-xxx"@
+
 h4. Commit and automatically get any other changes
 
 @git commit -a@
